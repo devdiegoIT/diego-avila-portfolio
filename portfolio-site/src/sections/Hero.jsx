@@ -10,11 +10,10 @@ const Hero = () => (
     transition={{ duration: 0.9 }}
   >
     <h2 className="text-4xl sm:text-5xl font-extrabold leading-tight mb-6 text-teal-400 max-w-4xl">
-      Hello, I'm Brian Njuguna
+      Hello, I’m Diego Avila
     </h2>
     <p className="text-lg sm:text-xl max-w-3xl mb-10 leading-relaxed text-gray-400">
-      Software engineer passionate about backend development, cybersecurity, and building secure,
-      scalable systems.
+      Aspiring Software Engineer passionate about building reliable, scalable applications with a focus on full-stack development.
     </p>
     <a
       href="#projects"
@@ -23,8 +22,8 @@ const Hero = () => (
       Explore My Projects
     </a>
     <p className="mt-10 max-w-3xl text-base sm:text-lg leading-relaxed text-gray-400">
-      Currently diving deep into the ALX backend program while enhancing my skills in cybersecurity
-      and open-source contributions.
+      I recently completed my B.S. in Information Technology with a Minor in Secure Computing & Networking at UCF.
+      I'm actively expanding my skills in Java, Spring Boot, React, and cloud-native technologies while contributing to open-source projects and applying modern development practices to build resilient, high-performance software.
     </p>
   </motion.section>
 );

@@ -32,7 +32,7 @@ const Header = () => {
             className="text-2xl font-bold text-teal-400 cursor-default select-none"
             tabIndex={-1}
           >
-            Brian Njuguna
+            Diego Avila
           </h1>
 
           <nav

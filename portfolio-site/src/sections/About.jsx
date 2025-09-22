@@ -4,51 +4,51 @@ import { motion } from "framer-motion";
 // Narrative terminal commands
 const commands = [
   {
-    cmdText: "boot brianOS...",
+    cmdText: "boot diegoOS...",
     output: "> Initializing personality modules...",
   },
   {
     cmdText: "cat about.txt",
     output:
-      "> I'm Brian Njuguna — a backend engineer, cybersecurity enthusiast, and open source contributor. I build secure, scalable systems that don't just function — they endure.",
+      "> I'm Diego Avila — a full-stack software engineer with a foundation in secure computing.\n> I build high-quality, scalable applications by integrating modern backend and frontend technologies.",
   },
   {
     cmdText: "cat philosophy.txt",
     output:
-      "> Security isn't a feature. It's the foundation.\n> Speed matters, but resilience lasts longer.\n> Open source isn't a trend — it's a trust contract.",
+      "> Clean architecture is the foundation of great software.\n> Security is a natural outcome of quality engineering, not a separate feature.\n> Well-documented, collaborative code leads to the strongest solutions.",
   },
   {
     cmdText: "cat mission.txt",
     output:
-      "> To engineer robust systems.\n> To contribute to open-source tools that empower.\n> To educate and inspire through community-driven innovation.",
+      "> To engineer reliable, maintainable systems.\n> To leverage cloud-native technologies to build scalable solutions.\n> To continuously learn and contribute to open, collaborative tech communities.",
   },
   {
     cmdText: "cat services.txt",
     output: [
-      "🔐 Secure API & backend architecture",
-      "🧠 System design & scalability consulting",
-      "🛡️ Security reviews & threat modeling",
-      "⚙️ CLI tools & dev automation workflows",
+      "☁️ Full-Stack Application Development (Spring Boot, React, SQL)",
+      "⚙️ Backend Architecture & API Design (REST, GraphQL)",
+      "🧩 Cloud-Native Solutions & DevOps (AWS, Kubernetes, CI/CD)",
+      "🔐 Secure Software Development Lifecycle Practices",
     ],
   },
   {
     cmdText: "cat skills.txt",
     output: [
-      "Node.js",
+      "Java",
+      "MySQL",
+      "React",
+      "Spring Boot",
+      "HTML/CSS/JavaScript",
       "Python",
-      "Shell Scripting",
-      "Express",
-      "PostgreSQL",
-      "MongoDB",
-      "Linux",
-      "Git & GitHub",
-      "Cybersecurity Practices",
-    ],
+      "AWS",
+      "Linux & Windows Server",
+      "Cryptography",
+      "Git & GitHub",    ],
   },
   {
     cmdText: "cat final_thoughts.txt",
     output:
-      "> If you're building for scale, for trust, or for something bigger than yourself...\n> Let's talk.",
+      "> If you're building for scale, reliability, and innovative solutions...\n> Let's connect.",
   },
 ];
 
@@ -82,7 +82,7 @@ const TypingCommand = ({ command, onComplete, paused }) => {
 
   return (
     <p className="text-green-300 font-mono text-sm sm:text-base">
-      <span className="text-teal-400">brian@bastion:~$</span> {typed}
+      <span className="text-teal-400">diego@secure-net:~$</span> {typed}
       <span className="inline-block ml-1">
         {cursorVisible.current ? "|" : "\u00A0"}
       </span>
@@ -121,13 +121,13 @@ const About = () => {
           <span className="w-3 h-3 bg-red-500 rounded-full"></span>
           <span className="w-3 h-3 bg-yellow-500 rounded-full"></span>
           <span className="w-3 h-3 bg-green-500 rounded-full"></span>
-          <span className="ml-2 text-gray-400 text-sm">brian@bastion:~</span>
+          <span className="ml-2 text-gray-400 text-sm">diego@secure-net:~</span>
         </div>
 
         {/* Terminal body */}
         <div className="p-6 space-y-4">
           <h2 className="text-teal-400 text-2xl sm:text-3xl font-bold">
-            🖥️ Terminal — Accessing Brian Njuguna
+            🖥️ Terminal — Accessing Diego Avila
           </h2>
 
           {commands.slice(0, current + 1).map((line, i) => (
@@ -146,7 +146,7 @@ const About = () => {
               ) : (
                 <>
                   <p className="text-green-300 font-mono text-sm sm:text-base">
-                    <span className="text-teal-400">brian@bastion:~$</span>{" "}
+                    <span className="text-teal-400">diego@secure-net:~$</span>{" "}
                     {line.cmdText}
                   </p>
                   <motion.div
@@ -207,12 +207,12 @@ const About = () => {
               transition={{ duration: 0.5 }}
             >
               <a
-                href="https://docs.google.com/document/d/1AzpAenefivF0MeBmlpGmeKgM94KQJhirmFFajVDQzu8/edit?usp=sharing"
+                href="https://docs.google.com/document/d/10vdwlXXtOAXh6HAi5bUXsfeQViSI_m4vWrZRIbLnclA/edit?tab=t.0"
                 className="inline-block bg-teal-500 hover:bg-teal-600 text-white px-8 py-3 rounded-full font-semibold transition shadow-lg focus:outline-none focus:ring-2 focus:ring-teal-400"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                View My CV 📄
+                View My Resume 📄
               </a>
             </motion.div>
           )}

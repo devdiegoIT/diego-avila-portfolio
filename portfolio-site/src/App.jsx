@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
-import Contact from "./sections/Contact";
+import DigitalGarden from './sections/DigitalGarden';
 
 const App = () => (
   <div className="bg-[#071422] text-white min-h-screen flex flex-col">
@@ -15,7 +15,7 @@ const App = () => (
       <Hero />
       <About />
       <Projects />
-      <Contact />
+      <DigitalGarden />
     </main>
     <Footer />
   </div>
