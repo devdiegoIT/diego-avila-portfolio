@@ -1,4 +1,4 @@
-# Diego Avila - Software Engineer Portfolio
+# Diego Avila - Software Developer Portfolio
 
 Welcome to the source code for my personal portfolio. This project is a single-page application built to showcase my skills, projects, and journey as a full-stack software engineer.
 
