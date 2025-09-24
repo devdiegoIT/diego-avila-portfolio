@@ -16,13 +16,13 @@ const learningTopics = [
   },
   {
     title: "GraphQL API Design",
-    status: "sprouting",
+    status: "growing",
     description: "Exploring alternatives to REST for building more efficient and flexible client-server communication.",
     link: "https://graphql.org/learn/"
   },
   {
     title: "Advanced React Hooks & Performance",
-    status: "flowering",
+    status: "growing",
     description: "Mastering custom hooks, memoization, and context API for building highly performant and maintainable UIs.",
     link: "https://react.dev/reference/react/hooks"
   },
@@ -34,13 +34,13 @@ const learningTopics = [
   },
   {
     title: "Container Orchestration with Kubernetes",
-    status: "harvested",
+    status: "growing",
     description: "Consolidated knowledge on deploying, managing, and scaling containerized applications.",
     link: "https://kubernetes.io/docs/concepts/overview/"
   },
   {
     title: "Secure API Design (OAuth 2.0 & JWT)",
-    status: "sprouting",
+    status: "growing",
     description: "Applying security principles to API development by implementing modern authentication and authorization patterns.",
     link: "https://oauth.net/2/"
   },

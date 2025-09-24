@@ -1,49 +1,57 @@
+# Diego Avila - Software Engineer Portfolio
 
+Welcome to the source code for my personal portfolio. This project is a single-page application built to showcase my skills, projects, and journey as a full-stack software engineer.
 
-````
-# My Portfolio
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/diego-avila1/) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:diegoavila0914@gmail.com) ---
 
-Welcome to my portfolio website! This project showcases my skills, experience, and projects as a software engineer.
+## 🚀 Live Site
 
-## 🚀 Live Demo
+You can explore the live, deployed version of my portfolio here:  
+**https://diego-avila.netlify.app/**
 
-You can view the live version of my portfolio here:  
-[Portfolio Live](https://briannjuguna-devsite.vercel.app/)
+## About This Project
+
+This portfolio was designed to be a unique and engaging presentation of my technical abilities. It features:
+
+* **An Interactive Terminal:** A terminal-style interface that introduces my mission, philosophy, and core technical skills.
+* **A Project Showcase:** A clean, grid-based layout displaying my most significant software development projects.
+* **A "Digital Garden":** A dynamic section that highlights the new technologies and concepts I am currently learning, reflecting my commitment to continuous growth.
 
 ## 🛠️ Tech Stack
 
-- React
-- Vite
-- Tailwind CSS
-- Framer Motion
+This site was built using a modern, efficient technology stack:
 
-## ⚡ Installation
+* **Frontend:** React
+* **Build Tool:** Vite
+* **Styling:** Tailwind CSS
+* **Animations:** Framer Motion
 
-To run this project locally:
+## 💻 Running Locally
 
-1. Clone the repository:
+To run this project on your own machine, follow these steps:
 
-   ```bash
-   git clone https://github.com/guy-with-a-cool-terminal/MyPortfolioWebsite.git
-   cd portfolio-site
-````
+1.  **Clone the Repository:**
+    ```bash
+    git clone https://github.com/devdiegoIT/diego-avila-portfolio.git
+    ```
+2.  **Navigate to the Directory:**
+    ```bash
+    cd portfolio-site
+    ```
+3.  **Install Dependencies:**
+    ```bash
+    npm install
+    ```
+4.  **Start the Development Server:**
+    ```bash
+    npm run dev
+    ```
 
-2. Install dependencies:
+## 🙏 Acknowledgements
 
-   ```bash
-   npm install
-   ```
+This portfolio was heavily inspired by the creative work and original portfolio of **Brian Njuguna**. A huge credit goes to him for the foundational design concept and terminal-style interface. While the codebase has been adapted and built upon, his project served as the primary inspiration.
 
-3. Start the development server:
+You can find Brian Njuguna's original portfolio repository [here](https://github.com/guy-with-a-cool-terminal/MyPortfolioWebsite.git).
 
-   ```bash
-   npm run dev
-   ```
-
-Now open [http://localhost:5173/](http://localhost:5173) to view the portfolio locally.
-
-## 📫 Contact
-
-You can reach me at:
-
-* **Email**: [njugunabriian@gmail.com](mailto:njugunabriian@gmail.com)
+---
+*This portfolio was designed and developed by Diego Avila.*
